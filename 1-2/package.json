@@ -1,0 +1,16 @@
+{
+  "name": "tcp-udp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "=>16.12.0",
+    "npm": "=>8.1.0"
+  }
+}
