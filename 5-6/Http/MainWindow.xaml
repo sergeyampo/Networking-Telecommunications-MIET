@@ -1,0 +1,18 @@
+﻿<Window x:Class="Http.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Http"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer Margin="0,170,0,0" Grid.Row="1" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Height="250" Width="800">
+            <TextBox x:Name="tb_content" TextWrapping="Wrap"/>
+        </ScrollViewer>
+        <TextBox x:Name="tb_adress" HorizontalAlignment="Left" Margin="134,65,0,0"  VerticalAlignment="Top" Width="501" Height="25"/>
+        <Label Content="Адрес страницы" HorizontalAlignment="Left" Margin="334,31,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.268,0.318"/>
+        <Button x:Name="bt" Content="Загрузить" HorizontalAlignment="Left" Margin="330,103,0,0" VerticalAlignment="Top" Height="34" Width="107" Click="ButtonClick"/>
+        <Label x:Name="l_erorr" Content="" HorizontalAlignment="Center" Margin="0,145,0,0" HorizontalContentAlignment="Center" VerticalAlignment="Top" Width="800"/>
+    </Grid>
+</Window>
